@@ -1,0 +1,5 @@
+GIT E GITHUB
+
+Git é um sistema de controle de versões distribuído.
+
+Objetos internos do Git: Blobs, Trees, Commits.

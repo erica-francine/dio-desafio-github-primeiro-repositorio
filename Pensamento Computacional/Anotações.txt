@@ -1,0 +1,9 @@
+INTRODUÇÃO A PROGRAMAÇÃO E AO PENSAMENTO COMPUTACIONAL
+
+Decomposição: Primeiro decompõe o problema que não conseguimos resolver em pequenos problemas, depois fazemos a síntese. Síntese construção, combina os elementos recompondo o problema original de maneira que faça sentido.
+
+Padrões: Modelos, referencia, a partir de um modelo posso determinar objetos diferentes que repitam o modelo de estrutura. Como reconhecer padrões, através da detecção das similaridades e diferenças.
+
+Abstração: 
+
+Abstrair é observar um ou mais elementos avaliando suas características e propriedades em separado. Já a abstração é o processo intelectual de isolamento de um objeto da realidade. Extrapolar um objeto do mundo concreto para o mundo das ideias.
