@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos - display flex</title>
+    <title>Flexbox</title>
     <style>
         .flex{
             max-width: 300px;
@@ -15,23 +15,156 @@
         .item{
             background-color: aqua;
             margin: 5px;
+            min-width: 70px;
+            text-align: center;
+            height: 50px;
+            
+        }
+        p{
+            font-size: 20px;
+        }
+        .rnowrap{
+            flex-flow: row nowrap;
+        }
+        .rwrap{
+            flex-flow: row wrap;
+        }
+        .rrnowrap{
+            flex-flow: row-reverse nowrap;
+        }
+        .rrwrap{
+            flex-flow: row-reverse wrap;
+        }
+        .rwReverse{
+            flex-flow: row wrap-reverse;
+        }
+        .rrwrapReverse{
+            flex-flow: row-reverse wrap-reverse;
+        }
+        .column{
+            flex-direction: column;
+            height: 400px;
+        }
+        .start{
+            justify-content: flex-start;
+        }
+        .end{
+            justify-content: flex-end;
+        }
+        .center{
+            justify-content: center;
+        }
+        .spaceBetween{
+            justify-content: space-between;
+        }
+        .spaceAround{
+            justify-content: space-around;
         }
     </style>
 </head>
 <body>
     <script src="./script.js"></script>
-    <div class="flex">
+    <p>Row Nowrap (padrão)</p>
+    <div class="flex rnowrap">
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
     </div>
+
+    <p>Row Wrap</p>
+    <div class="flex rwrap">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <p>Row-reverse Nowrap</p>
+    <div class="flex rrnowrap">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <p>Row-reverse wrap</p>
+    <div class="flex rrwrap">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+
+    <p>Row Wrap-reverse</p>
+    <div class="flex rwReverse">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <p>Row-reverse Wrap-reverse</p>
+    <div class="flex rrwrapReverse">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <h3>Column</h3>
+    <p>Justify start</p>
+    <div class="flex column start">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <p>Justify end</p>
+    <div class="flex column end">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <p>Justify center</p>
+    <div class="flex column center">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <p>Justify space-between</p>
+    <div class="flex column spaceBetween">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <p>Justify space-around</p>
+    <div class="flex column spaceAround">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+
 </body>
 </html>
