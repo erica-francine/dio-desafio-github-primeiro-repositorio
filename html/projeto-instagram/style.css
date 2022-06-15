@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    background-color: #fafafa;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+.pagina-instagram{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:550px;
+    max-width: 400px;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.celular img{
+    height: 45rem;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 550px;
+    min-width: 400px;
+}
+.estilo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem;
+    border: solid 1px #dbdbdb;
+}
+.entrar{
+    min-height: 25rem;
+}
+.entrar form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entrar form input{
+    margin: 10px;
+}
+.login .entrar li{
+    list-style: none;
+ }
+
+.baixar-app{
+    display: flex;
+    flex-direction: column;
+}
+.baixar-app .obter-app{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.baixar-app img{
+    width: 150px;
+}
+
