@@ -79,4 +79,11 @@ body{
 .baixar-app img{
     width: 150px;
 }
-
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (max-width: 870px){
+ 
+}
