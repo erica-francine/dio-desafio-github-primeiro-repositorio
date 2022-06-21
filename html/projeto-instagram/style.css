@@ -60,6 +60,7 @@ body{
 
 .entrar img{
     margin-bottom:30px ;
+    margin-top: 20px;
 }
 .entrar form{
     display: flex;
@@ -98,14 +99,20 @@ body{
     color: #385185;
     font-weight: bold;
 }
-.login .entrar li:nth-child(3){
+.login .entrar li:nth-child(3) a{
     color: #385185;
     font-size: 12px;
+    font-weight: 100;
 }
-    
+
+.registrar{
+    margin-top: -10px;
+}
+
 .baixar-app{
     display: flex;
     flex-direction: column;
+    margin-top: -10px;
 }
 
 .baixar-app .obter-app{
@@ -119,8 +126,4 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-@media (max-width: 870px){
- 
 }
